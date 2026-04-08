@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function HomePage() {
   return (
     <>
@@ -18,28 +16,19 @@ export default function HomePage() {
         </div>
 
         {/* <!-- Floating Code Elements --> */}
-        <div
-          className="absolute top-20 left-10 hidden lg:block animate-bounce"
-          style="animation-duration: 3s;"
-        >
+        {/* <div className="absolute top-20 left-10 hidden lg:block animate-bounce[animation-duration: 3s] ">
           <div className="bg-[#1E3A8A]/40 backdrop-blur-sm border border-[#3B82F6]/30 rounded-lg p-4 text-[#60A5FA] font-mono text-sm">
             <div>const skills = await</div>
             <div className="ml-4">learnTech();</div>
           </div>
-        </div>
-        <div
-          className="absolute top-32 right-16 hidden lg:block animate-bounce"
-          style="animation-duration: 4s; animation-delay: 1s;"
-        >
+        </div> */}
+        <div className="absolute top-32 right-16 hidden lg:block bounce-slow">
           <div className="bg-[#06B6D4]/20 backdrop-blur-sm border border-[#06B6D4]/30 rounded-lg p-4 text-[#06B6D4] font-mono text-sm">
             <div>certification</div>
             <div className="text-[#60A5FA]">✅ Ready</div>
           </div>
         </div>
-        <div
-          className="absolute bottom-32 left-20 hidden lg:block animate-bounce"
-          style="animation-duration: 3.5s; animation-delay: 0.5s;"
-        >
+        <div className="absolute bottom-32 left-20 hidden lg:block bounce-slow">
           <div className="bg-[#3B82F6]/30 backdrop-blur-sm border border-[#3B82F6]/30 rounded-lg p-4 text-white font-mono text-sm">
             <div className="text-[#60A5FA]">// Build your</div>
             <div className="text-[#06B6D4]">future</div>
@@ -55,12 +44,9 @@ export default function HomePage() {
             </span>
           </div>
 
-          <h1
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight"
-            style="font-family: var(--font-family-heading);"
-          >
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight font-heading">
             Build Your Future in Tech with
-            <span className="bg-gradient-to-r from-[#3B82F6] via-[#06B6D4] to-[#60A5FA] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#3B82F6] via-[#06B6D4] to-[#60A5FA] bg-clip-text text-transparent px-2 lg:px-4">
               Practical Skills
             </span>
             That Get You Hired

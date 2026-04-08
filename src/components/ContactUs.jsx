@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ContactUs() {
   return (
     <>
@@ -30,12 +28,9 @@ export default function ContactUs() {
               </svg>
               <span className="text-sm font-semibold">Get In Touch</span>
             </div>
-            <h2
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-4 leading-tight"
-              style="font-family: var(--font-family-heading);"
-            >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-4 leading-tight font-heading">
               Let's Start Your
-              <span className="bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] bg-clip-text text-transparent pl-2 lg:pl-3">
                 Tech Journey
               </span>
             </h2>
@@ -45,7 +40,7 @@ export default function ContactUs() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 scroll-reveal opacity-0 translate-y-12 transition-all duration-700 ease-out">
+          <div className="grid lg:grid-cols-5 gap-8 lg:gap-12  translate-y-12 transition-all duration-700 ease-out">
             {/* <!-- Contact Form --> */}
             <div className="lg:col-span-3">
               <div className="relative bg-white rounded-3xl p-8 lg:p-10 shadow-xl shadow-[#1E3A8A]/5 border border-gray-100">
@@ -154,12 +149,12 @@ export default function ContactUs() {
                           </option>
                           <option value="other">Other</option>
                         </select>
-                        <label
+                        {/* <label
                           htmlFor="program"
                           className="absolute left-4 top-3 text-sm text-[#9CA3AF] transition-all duration-200 pointer-events-none"
                         >
                           Program of Interest
-                        </label>
+                        </label> */}
                         <svg
                           className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF] pointer-events-none"
                           fill="none"
@@ -213,7 +208,7 @@ export default function ContactUs() {
                           ></path>
                         </svg>
                       </span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6]  group-hover:opacity-100 transition-opacity duration-300"></div>
                     </button>
                   </form>
                 </div>
@@ -280,7 +275,7 @@ export default function ContactUs() {
               </div>
 
               {/* <!-- Bale Goba Campus --> */}
-              <div className="group bg-white rounded-2xl p-6 border-2 border-gray-100 hover:border-[#3B82F6]/30 transition-all duration-300 hover:shadow-xl hover:shadow-[#3B82F6]/10 hover:-translate-y-1 overflow-hidden">
+              {/* <div className="group bg-white rounded-2xl p-6 border-2 border-gray-100 hover:border-[#3B82F6]/30 transition-all duration-300 hover:shadow-xl hover:shadow-[#3B82F6]/10 hover:-translate-y-1 overflow-hidden">
                 <div className="absolute top-0 right-0 w-20 h-20 bg-[#3B82F6]/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-500"></div>
                 <div className="relative">
                   <div className="flex items-center gap-4 mb-4">
@@ -334,7 +329,7 @@ export default function ContactUs() {
                     <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* <!-- Quick Contact --> */}
               <div className="grid grid-cols-2 gap-4">

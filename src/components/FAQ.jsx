@@ -12,10 +12,7 @@ export default function FAQ() {
             <div className="inline-flex items-center gap-2 bg-[#1E3A8A]/10 rounded-full px-4 py-2 mb-6">
               <span className="text-[#1E3A8A] text-sm font-semibold">FAQ</span>
             </div>
-            <h2
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-4 leading-tight"
-              style="font-family: var(--font-family-heading);"
-            >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-4 leading-tight font-heading">
               Frequently Asked <span className="text-[#1E3A8A]">Questions</span>
             </h2>
             <p className="text-lg text-[#6B7280] max-w-2xl mx-auto">
@@ -25,7 +22,7 @@ export default function FAQ() {
           </div>
 
           {/* <!-- FAQ Items --> */}
-          <div className="space-y-4 scroll-reveal opacity-0 translate-y-12 transition-all duration-700 ease-out">
+          <div className="space-y-4 scroll-reveal  translate-y-12 transition-all duration-700 ease-out">
             {/* <!-- FAQ 1 --> */}
             <div
               className="bg-white rounded-2xl border border-[#E5E7EB] overflow-hidden"

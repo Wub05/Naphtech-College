@@ -3,7 +3,7 @@ export default function Language() {
     <>
       <section className="code-section bg-white py-16 lg:py-24" id="sghuiyq8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center scroll-reveal opacity-0 translate-y-12 transition-all duration-700 ease-out">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center scroll-reveal  translate-y-12 transition-all duration-700 ease-out">
             {/* <!-- Image --> */}
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
@@ -51,10 +51,7 @@ export default function Language() {
                 </span>
               </div>
 
-              <h2
-                className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-6 leading-tight"
-                style="font-family: var(--font-family-heading);"
-              >
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F2937] mb-6 leading-tight font-heading">
                 Master English &amp; Excel in
                 <span className="text-[#1E3A8A]"> Your Studies</span>
               </h2>

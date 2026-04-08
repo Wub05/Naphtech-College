@@ -9,10 +9,7 @@ export default function WhyUs() {
       >
         {/* <!-- Background Pattern --> */}
         <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute top-0 left-0 w-full h-full"
-            style="background-image: radial-gradient(circle at 2px 2px, #fff 1px, transparent 0); background-size: 40px 40px;"
-          ></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-dots"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,10 +20,7 @@ export default function WhyUs() {
                 Why Naphtech
               </span>
             </div>
-            <h2
-              className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight"
-              style="font-family: var(--font-family-heading);"
-            >
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight font-heading">
               Why Choose{" "}
               <span className="text-[#3B82F6]">Naphtech College</span>?
             </h2>
@@ -37,7 +31,7 @@ export default function WhyUs() {
           </div>
 
           {/* <!-- Features Grid --> */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 scroll-reveal opacity-0 translate-y-12 transition-all duration-700 ease-out">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 scroll-reveal  translate-y-12 transition-all duration-700 ease-out">
             {/* <!-- Feature 1 --> */}
             <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-[#3B82F6]/50 transition-all duration-300">
               <div className="w-14 h-14 bg-gradient-to-br from-[#3B82F6] to-[#1E3A8A] rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
@@ -48,11 +42,11 @@ export default function WhyUs() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLineCap="round"
+                    strokeLineJoin="round"
+                    strokeWidth="2"
                     d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  ></path>
+                  />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-2">
@@ -124,11 +118,11 @@ export default function WhyUs() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLineCap="round"
+                    strokeLineJoin="round"
+                    strokeWidth="2"
                     d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                  ></path>
+                  />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-2">
@@ -141,7 +135,7 @@ export default function WhyUs() {
           </div>
 
           {/* <!-- Additional Info Banner --> */}
-          <div className="mt-12 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 lg:p-10">
+          <div className="mt-24 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 lg:p-10">
             <div className="grid lg:grid-cols-3 gap-8 items-center">
               <div className="lg:col-span-2">
                 <h3 className="text-2xl font-bold text-white mb-3">
@@ -155,7 +149,7 @@ export default function WhyUs() {
               <div className="flex justify-center lg:justify-end gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-[#3B82F6] mb-1">
-                    2
+                    1
                   </div>
                   <div className="text-sm text-[#9CA3AF]">Campus Locations</div>
                 </div>

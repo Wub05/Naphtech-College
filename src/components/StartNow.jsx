@@ -19,10 +19,7 @@ export default function StartNow() {
                 </span>
               </div>
 
-              <h2
-                className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight"
-                style="font-family: var(--font-family-heading);"
-              >
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight font-heading">
                 Start Your Tech Career Today
               </h2>
 
@@ -32,10 +29,9 @@ export default function StartNow() {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
-                <a
+                {/* <a
                   href="/admissions"
-                  className="group relative bg-white hover:bg-[#F0F4FF] text-[#1E3A8A] px-10 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:shadow-white/25 hover:-translate-y-1 animate-pulse"
-                  style="animation-duration: 2s;"
+                  className="group relative bg-white hover:bg-[#F0F4FF] text-[#1E3A8A] px-10 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:shadow-white/25 hover:-translate-y-1 pulse-slow"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     Enroll Now
@@ -53,7 +49,7 @@ export default function StartNow() {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </a> */}
                 <a
                   href="/contact"
                   className="group bg-transparent hover:bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-10 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:border-white/50 hover:-translate-y-1"
