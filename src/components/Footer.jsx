@@ -216,10 +216,7 @@ export default function Footer() {
                     <a className="mr-3">
                       <PhoneCallIcon color="#3B82F6" />
                     </a>
-                    <a
-                      href="mailto:info@naphtechcollege.com"
-                      className="text-[#9CA3AF] hover:text-white transition-colors duration-200"
-                    >
+                    <a className="text-[#9CA3AF] hover:text-white transition-colors duration-200">
                       <p>09 30 21 06 59</p>
                       <p>09 19 55 20 01</p>
                     </a>
